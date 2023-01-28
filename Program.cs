@@ -29,7 +29,7 @@ namespace Loldle
             champions.Add("Alistar", new List<string> { "Male", "Support", "Minotaur", "Mana", "Melee", "Runeterra", "2009" });
             champions.Add("Amumu", new List<string> { "Male", "Jungle Support", "Undead Yordle", "Mana", "Melee", "Shurima", "2009" });
             champions.Add("Anivia", new List<string> { "Female", "Mid", "God Spirit", "Mana", "Ranged", "Freljord", "2009" });
-            champions.Add("Annie", new List<string> { "Female", "Mid", "Human MagicallyAltered", "Mana", "Ranged", "Runeterra", "2009" });
+            champions.Add("Annie", new List<string> { "Female", "Mid", "Human Magicborn", "Mana", "Ranged", "Runeterra", "2009" });
             champions.Add("Aphelios", new List<string> { "Male", "Bot", "Human Spiritualist", "Mana", "Ranged", "Targon", "2019" });
             champions.Add("Ashe", new List<string> { "Female", "Bot Support", "Human Iceborn", "Mana", "Ranged", "Freljord", "2009" });
             champions.Add("Aurelion Sol", new List<string> { "Male", "Mid", "Celestial Dragon", "Mana", "Ranged", "Runeterra Targon", "2016" });
@@ -41,13 +41,13 @@ namespace Loldle
             champions.Add("Braum", new List<string> { "Male", "Support", "Human Iceborn", "Mana", "Melee", "Freljord", "2014" });
             champions.Add("Caitlyn", new List<string> { "Female", "Bot", "Human", "Mana", "Ranged", "Piltover", "2011" });
             champions.Add("Camile", new List<string> { "Female", "Top", "Cyborg Human", "Mana", "Melee", "Piltover", "2016" });
-            champions.Add("Cassiopeia", new List<string> { "Female", "Mid", "Human MagicallyAltered", "Mana", "Ranged", "Noxus", "2010" });
+            champions.Add("Cassiopeia", new List<string> { "Female", "Mid", "Human MagicallyAltered", "Mana", "Ranged", "Noxus Shurima", "2010" });
             champions.Add("Cho'Gath", new List<string> { "Male", "Top", "Void-Being", "Mana", "Melee", "Void", "2009" });
             champions.Add("Corki", new List<string> { "Male", "Mid", "Yordle", "Mana", "Ranged", "BandleCity", "2009" });
             champions.Add("Darius", new List<string> { "Male", "Top", "Human", "Mana", "Melee", "Noxus", "2012" });
             champions.Add("Diana", new List<string> { "Female", "Jungle Mid", "Aspect Human", "Mana", "Melee", "Targon", "2012" });
             champions.Add("Draven", new List<string> { "Male", "Bot", "Human", "Mana", "Ranged", "Noxus", "2012" });
-            champions.Add("Dr. Mundo", new List<string> { "Male", "Top", "ChemicallyAltered Human", "Health", "Melee", "Zaun", "2009" });
+            champions.Add("Dr. Mundo", new List<string> { "Male", "Top", "ChemicallyAltered Human", "Health", "Melee", "Zaun", "2009" });//Removed Jungle from Positions
             champions.Add("Ekko", new List<string> { "Male", "Jungle Mid", "Human", "Mana", "Melee", "Zaun", "2015" });
             champions.Add("Elise", new List<string> { "Female", "Jungle", "Human MagicallyAltered", "Mana", "Melee Ranged", "Noxus ShadowIsles", "2012" });
             champions.Add("Evelynn", new List<string> { "Female", "Jungle", "Demon Spirit", "Mana", "Melee", "Runeterra", "2009" });
@@ -56,7 +56,7 @@ namespace Loldle
             champions.Add("Fiora", new List<string> { "Female", "Top", "Human", "Mana", "Melee", "Demacia", "2012" });
             champions.Add("Fizz", new List<string> { "Male", "Mid", "Yordle", "Mana", "Melee", "Bilgewater", "2011" });
             champions.Add("Galio", new List<string> { "Male", "Mid Support", "Golem", "Mana", "Melee", "Demacia", "2010" });
-            champions.Add("Gankplank", new List<string> { "Male", "Mid Top", "Human", "Mana", "Melee", "Bilgewater", "2009" });
+            champions.Add("Gankplank", new List<string> { "Male", "Mid Top", "Human", "Mana", "Melee", "Bilgewater", "2009" });//Added Mid to Positions
             champions.Add("Garen", new List<string> { "Male", "Top", "Human", "Manaless", "Melee", "Demacia", "2010" });
             champions.Add("Gnar", new List<string> { "Male", "Top", "Yordle", "Rage", "Melee Ranged", "Freljord", "2014" });
             champions.Add("Gragas", new List<string> { "Male", "Jungle Top", "Human", "Mana", "Melee", "Freljord", "2010" });
@@ -69,7 +69,7 @@ namespace Loldle
             champions.Add("Ivern", new List<string> { "Male", "Jungle", "Human MagicallyAltered", "Mana", "Ranged", "Freljord Ionia", "2016" });
             champions.Add("Janna", new List<string> { "Female", "Support", "God Spirit", "Mana", "Ranged", "Shurima Zaun", "2009" });
             champions.Add("Jarvan IV", new List<string> { "Male", "Jungle", "Human", "Mana", "Melee", "Demacia", "2011" });
-            champions.Add("Jax", new List<string> { "Male", "Top", "Unknown", "Mana", "Melee", "Icathia Runeterra Shurima", "2009" });
+            champions.Add("Jax", new List<string> { "Male", "Jungle Top", "Unknown", "Mana", "Melee", "Icathia Runeterra Shurima", "2009" });
             champions.Add("Jayce", new List<string> { "Male", "Mid Top", "Human", "Mana", "Melee Ranged", "Piltover", "2012" });
             champions.Add("Jhin", new List<string> { "Male", "Bot", "Human Spiritualist", "Mana", "Ranged", "Ionia", "2016" });
             champions.Add("Jinx", new List<string> { "Female", "Bot", "ChemicallyAltered Human", "Mana", "Ranged", "Zaun", "2013" });
@@ -81,6 +81,7 @@ namespace Loldle
             champions.Add("Katarina", new List<string> { "Female", "Mid", "Human", "Manaless", "Melee", "Noxus", "2009" });
             champions.Add("Kayle", new List<string> { "Female", "Top", "Aspect Human MagicallyAltered", "Mana", "Melee Ranged", "Demacia Targon", "2009" });
             champions.Add("Kayn", new List<string> { "Male", "Jungle", "Darkin Human MagicallyAltered", "Mana", "Melee", "Ionia Noxus Runeterra Shurima", "2017" });
+            champions.Add("K'Sante", new List<string> { "Male", "Top", "Human", "Mana", "Melee", "Shurima", "2022" });
             champions.Add("Kennen", new List<string> { "Male", "Mid Top", "Yordle", "Energy", "Ranged", "Ionia", "2010" });
             champions.Add("Kha'Zix", new List<string> { "Male", "Jungle", "Void-Being", "Mana", "Melee", "Void", "2012" });
             champions.Add("Kindred", new List<string> { "Female", "Jungle", "God Spirit", "Mana", "Ranged", "Runeterra", "2015" });//Changed Gender from "Other" to "Female"
@@ -96,7 +97,7 @@ namespace Loldle
             champions.Add("Lux", new List<string> { "Female", "Mid Support", "Human Magicborn", "Mana", "Ranged", "Demacia", "2010" });
             champions.Add("Malphite", new List<string> { "Male", "Mid Top", "Golem", "Mana", "Melee", "Ixtal Shurima", "2009" });//Added Mid to Positions
             champions.Add("Malzahar", new List<string> { "Male", "Mid", "Human Void-Being", "Mana", "Ranged", "Icathia Shurima Void", "2010" });
-            champions.Add("Maokai", new List<string> { "Male", "Jungle Support Top", "Spirit", "Mana", "Melee", "BlessedIsles ShadowIsles", "2011" });//Added Jungle to Positions
+            champions.Add("Maokai", new List<string> { "Male", "Jungle Support Top", "Spirit", "Mana", "Melee", "ShadowIsles", "2011" });//Added Jungle to Positions
             champions.Add("Master Yi", new List<string> { "Male", "Jungle", "Human Spiritualist", "Mana", "Melee", "Ionia", "2009" });
             champions.Add("Miss Fortune", new List<string> { "Female", "Bot", "Human", "Mana", "Ranged", "Bilgewater", "2010" });
             champions.Add("Mordekaiser", new List<string> { "Male", "Jungle Top", "Revenant", "Shield", "Melee", "Noxus", "2010" });
@@ -105,21 +106,21 @@ namespace Loldle
             champions.Add("Nasus", new List<string> { "Male", "Top", "God-Warrior", "Mana", "Melee", "Shurima", "2009" });
             champions.Add("Nautilus", new List<string> { "Male", "Support", "Revenant", "Mana", "Melee", "Bilgewater", "2012" });
             champions.Add("Neeko", new List<string> { "Female", "Mid Support", "Vastayan", "Mana", "Ranged", "Ixtal", "2018" });
-            champions.Add("Nidalee", new List<string> { "Female", "Jungle", "Human Spiritualist Vastayan", "Mana", "Melee Ranged", "Ixtal", "2009" });
+            champions.Add("Nidalee", new List<string> { "Female", "Jungle", "Human Spiritualist", "Mana", "Melee Ranged", "Ixtal", "2009" });
             champions.Add("Nilah", new List<string> { "Female", "Bot", "Human MagicallyAltered", "Mana", "Melee", "Bilgewater", "2022" });
             champions.Add("Nocturne", new List<string> { "Male", "Jungle", "Demon Spirit", "Mana", "Melee", "Runeterra", "2011" });
-            champions.Add("Nunu & Willump", new List<string> { "Male", "Jungle", "Human", "Mana", "Melee", "Freljord", "2009" });
+            champions.Add("Nunu & Willump", new List<string> { "Male", "Jungle", "Human Yeti", "Mana", "Melee", "Freljord", "2009" });
             champions.Add("Olaf", new List<string> { "Male", "Jungle Top", "Human Iceborn", "Mana", "Melee", "Freljord", "2010" });
             champions.Add("Orianna", new List<string> { "Female", "Mid", "Golem", "Mana", "Ranged", "Piltover", "2011" });
             champions.Add("Ornn", new List<string> { "Male", "Top", "God Spirit", "Mana", "Melee", "Freljord", "2017" });
-            champions.Add("Pantheon", new List<string> { "Male", "Jungle Mid Support Top", "Human", "Mana", "Melee", "Targon", "2010" });//Added Top to Positions
+            champions.Add("Pantheon", new List<string> { "Male", "Jungle Mid Support Top", "Aspect Human", "Mana", "Melee", "Targon", "2010" });//Added Top to Positions
             champions.Add("Poppy", new List<string> { "Female", "Jungle Top", "Yordle", "Mana", "Melee", "Demacia", "2010" });
             champions.Add("Pyke", new List<string> { "Male", "Support", "Revenant", "Mana", "Melee", "Bilgewater", "2018" });
             champions.Add("Qiyana", new List<string> { "Female", "Jungle Mid", "Human Magicborn", "Mana", "Melee", "Ixtal", "2019" });
             champions.Add("Quinn", new List<string> { "Female", "Top", "Human", "Mana", "Ranged", "Demacia", "2013" });
             champions.Add("Rakan", new List<string> { "Male", "Support", "Vastayan", "Mana", "Melee", "Ionia", "2017" });
             champions.Add("Rammus", new List<string> { "Male", "Jungle", "God-Warrior", "Mana", "Melee", "Shurima", "2009" });
-            champions.Add("Rek'Sai", new List<string> { "Female", "Jungle", "Void-Being", "Rage", "Melee", "Void", "2014" });
+            champions.Add("Rek'Sai", new List<string> { "Female", "Jungle", "Void-Being", "Rage", "Melee", "Shurima Void", "2014" });
             champions.Add("Rell", new List<string> { "Female", "Support", "Human MagicallyAltered Magicborn", "Mana", "Melee", "Noxus", "2020" });
             champions.Add("Renata Glac", new List<string> { "Female", "Support", "ChemicallyAltered Human", "Mana", "Ranged", "Zaun", "2022" });
             champions.Add("Renekton", new List<string> { "Male", "Top", "God-Warrior", "Fury", "Melee", "Shurima", "2011" });
@@ -139,7 +140,7 @@ namespace Loldle
             champions.Add("Sion", new List<string> { "Male", "Top", "Revenant", "Mana", "Melee", "Noxus", "2009" });
             champions.Add("Sivir", new List<string> { "Female", "Bot", "Human", "Mana", "Ranged", "Shurima", "2009" });
             champions.Add("Skarner", new List<string> { "Male", "Jungle", "Backern", "Mana", "Melee", "Shurima", "2011" });
-            champions.Add("Sona", new List<string> { "Female", "Support", "Human Magicborn", "Mana", "Ranged", "Demacia", "2010" });
+            champions.Add("Sona", new List<string> { "Female", "Support", "Human Magicborn", "Mana", "Ranged", "Demacia Ionia", "2010" });
             champions.Add("Soraka", new List<string> { "Female", "Support", "Celestial", "Mana", "Ranged", "Ionia Targon", "2009" });
             champions.Add("Swain", new List<string> { "Male", "Support Mid Bot", "Human MagicallyAltered", "Mana", "Ranged", "Noxus", "2010" });
             champions.Add("Sylas", new List<string> { "Male", "Mid Jungle", "Human Magicborn", "Mana", "Melee", "Demacia", "2019" });//Added Jungle to Positions
@@ -149,13 +150,13 @@ namespace Loldle
             champions.Add("Talon", new List<string> { "Male", "Jungle Mid", "Human", "Mana", "Melee", "Noxus", "2011" });
             champions.Add("Taric", new List<string> { "Male", "Support", "Aspect Human", "Mana", "Melee", "Demacia Targon", "2009" });
             champions.Add("Teemo", new List<string> { "Male", "Top", "Yordle", "Mana", "Ranged", "BandleCity", "2009" });
-            champions.Add("Thresh", new List<string> { "Male", "Support", "Undead", "Mana", "Ranged", "BlessedIsles ShadowIsles", "2013" });
+            champions.Add("Thresh", new List<string> { "Male", "Support", "Undead", "Mana", "Ranged", "ShadowIsles", "2013" });
             champions.Add("Tristana", new List<string> { "Female", "Bot", "Yordle", "Mana", "Ranged", "BandleCity", "2009" });
             champions.Add("Tryndamere", new List<string> { "Male", "Top", "Human MagicallyAltered", "Fury", "Melee", "Freljord", "2009" });
             champions.Add("Trundle", new List<string> { "Male", "Jungle Top", "Iceborn Troll", "Mana", "Melee", "Freljord", "2010" });
             champions.Add("Twisted Fate", new List<string> { "Male", "Mid", "Human Magicborn", "Mana", "Ranged", "Bilgewater", "2009" });
             champions.Add("Twitch", new List<string> { "Male", "Bot", "ChemicallyAltered Rat", "Mana", "Ranged", "Zaun", "2009" });
-            champions.Add("Udyr", new List<string> { "Male", "Jungle Top", "Human Spiritualist Vastayan", "Mana", "Melee", "Freljord Ionia", "2009" });
+            champions.Add("Udyr", new List<string> { "Male", "Jungle Top", "Human Spiritualist", "Mana", "Melee", "Freljord Ionia", "2009" });
             champions.Add("Urgot", new List<string> { "Male", "Top", "ChemicallyAltered Cyborg Human", "Mana", "Ranged", "Noxus Zaun", "2010" });
             champions.Add("Varus", new List<string> { "Male", "Bot Mid", "Darkin Human", "Mana", "Ranged", "Ionia Runeterra Shurima", "2012" });
             champions.Add("Vayne", new List<string> { "Female", "Bot Top", "Human", "Mana", "Ranged", "Demacia", "2011" });
@@ -164,7 +165,7 @@ namespace Loldle
             champions.Add("Vex", new List<string> { "Female", "Mid", "Yordle", "Mana", "Ranged", "BandleCity ShadowIsles", "2021" });
             champions.Add("Vi", new List<string> { "Female", "Jungle", "Human", "Mana", "Melee", "Piltover Zaun", "2012" });
             champions.Add("Viego", new List<string> { "Male", "Jungle", "Undead", "Manaless", "Melee", "Camavor ShadowIsles", "2021" });
-            champions.Add("Viktor", new List<string> { "Male", "Mid", "Cyborg Human", "Mana", "Ranged", "Zaun", "2011" });
+            champions.Add("Viktor", new List<string> { "Male", "Mid", "Cyborg Human", "Mana", "Ranged", "Piltover Zaun", "2011" });
             champions.Add("Vladimir", new List<string> { "Male", "Mid", "Human MagicallyAltered", "Health", "Ranged", "Camavor Noxus ShadowIsles", "2010" });//Resource changed from "Bloodthirst" to "Health"
             champions.Add("Volibear", new List<string> { "Male", "Jungle Top", "God Spirit", "Mana", "Melee", "Freljord", "2011" });
             champions.Add("Warwick", new List<string> { "Male", "Jungle Top", "ChemicallyAltered Cyborg Human", "Mana", "Melee", "Zaun", "2009" });
@@ -173,7 +174,7 @@ namespace Loldle
             champions.Add("Xin Zhao", new List<string> { "Male", "Jungle", "Human", "Mana", "Melee", "Demacia Ionia Noxus", "2010" });
             champions.Add("Yasuo", new List<string> { "Male", "Mid", "Human Magicborn", "Flow", "Melee", "Ionia", "2013" });
             champions.Add("Yone", new List<string> { "Male", "Mid Top", "Human MagicallyAltered", "Manaless", "Melee", "Ionia", "2020" });
-            champions.Add("Yorick", new List<string> { "Male", "Top", "Human MagicallyAltered", "Mana", "Melee", "BlessedIsles ShadowIsles", "2011" });
+            champions.Add("Yorick", new List<string> { "Male", "Top", "Human MagicallyAltered", "Mana", "Melee", "ShadowIsles", "2011" });
             champions.Add("Yuumi", new List<string> { "Female", "Support", "Cat MagicallyAltered", "Mana", "Ranged", "BandleCity", "2019" });
             champions.Add("Zac", new List<string> { "Male", "Jungle Top", "Golem", "Health", "Melee", "Zaun", "2013" });//Added Top to Positions
             champions.Add("Zed", new List<string> { "Male", "Jungle Mid", "Human MagicallyAltered", "Energy", "Melee", "Ionia", "2012" });//Added Jungle to Positions
@@ -379,7 +380,7 @@ namespace Loldle
                 //------------------------------------------------------------------------------------------
                 if (input == rightInput)
                 {
-                    /*if (rightInput == "Kai'Sa") //since you found this section of the code, I'm going to explain what it is. Basically when you guess one of these champions there is going to be a special message. I offered every friend of mine that used the program to choose a champion and a special greeting to it. Most of the messages are in bulgarian, but I'll translate them for you below :)
+                    if (rightInput == "Kai'Sa") //since you found this section of the code, I'm going to explain what it is. Basically when you guess one of these champions there is going to be a special message. I offered every friend of mine that used the program to choose a champion and a special greeting to it. Most of the messages are in bulgarian, but I'll translate them for you below :)
                     {
                         Console.WriteLine("shti izqm beliq buz"); //I will eat you white ass
                     }
@@ -430,7 +431,7 @@ namespace Loldle
                     else if (rightInput == "Zoe")
                     {
                         Console.WriteLine("Da mi se igrae? Na men ne mi se igrae,az sum Eva"); //Do i want to play? I don't want to, im Eva(she always grumbled: "I don't want to play anymoreeeeee", which was so funny, cuz she did it in a really pitch voice)
-                    }*/
+                    }
                     break;
                 }
                 input = Console.ReadLine();
