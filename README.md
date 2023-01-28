@@ -29,7 +29,8 @@ The "Release Year" works as follows. Let's use Aatrox for example. He is release
 # Changes from the original game: 
 The game is inspired by an online game called Loldle: https://loldle.net/classic. I've made a few changes tho. I've added a "Give up" command, which will reveal the right champion and his categories. Another change is the removal of the gender type - "Other" and replacing it will an accurate gender for the champion(And no, that doesn't mean I'm homophobic. Don't cancel me :D ).
 
-# Changes to categories: I've also made some changes to The "Positions" and "Regions" of each champion, which feel correct to me:
+# Changes to categories:
+I've also made some changes to The "Positions" and "Regions" of each champion, which feel correct to me:
 Blitzcrank: Changed Gender from "Other" to "Male",
 Ezreal: Added Runeterra to Region,
 Katarina: Added Icathia to Region,
@@ -44,7 +45,7 @@ Sylas: Added Jungle to Positions,
 Vladimir: Resource changed from "Bloodthirst" to "Health",
 Zac: Added Top to Positions,
 Zed: Added Jungle to Positions,
-Zilean: Added Mid to Positions
+Zilean: Added Mid to Positions.
 
 
 # How does the code work?
@@ -52,7 +53,7 @@ Firstly all champions are added to a Dicitonary<string, List<string>>, where the
 All champion names are added to another List. Then a random number generator is implemented(from number 0 to the number of the List.Count). Then the random number which matches the index of the champion in the List is chosen as a right input.
 3 more Dicitonary<string, List<string>> are created for the categories: "Positions", "Species", "Region", because they need to be splited one more time from the first dicitonary. The string once again contains the champion name, The List - one of the categories above(for example: Bot Top).
 Then the program let's the user type an input. If the input is the same as the right champion, everything is coloured green and the program stops. 
- If the input isn't a League Of Legends champion at all or if you have a typo, it let's the user type another input. This reapeats until the user gives the program an existing League Of Legend champion. 
+If the input isn't a League Of Legends champion at all or if you have a typo, it let's the user type another input. This reapeats until the user gives the program an existing League Of Legend champion. 
 If the input isn't the right champion, but it's an existing champion there are a series of if else-s that check if the category should be coloured green, red or yellow.
 As i mentioned there is a "Give up" command which prints the right champion and his categories, coloured in green.
 
