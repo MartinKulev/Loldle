@@ -17,9 +17,9 @@ namespace Loldle
             Console.WriteLine("Gender | Positions | Species | Resource | Range Type | Region | Release Year");
             string input = Console.ReadLine();
 
-            int checker1 = 0;
-            int checker2 = 0;
-            int checker3 = 0;
+            bool checker1 = false;
+            bool checker2 = false;
+            bool checker3 = false;
 
             Dictionary<string, List<string>> champions = new Dictionary<string, List<string>>();
             champions.Add("Aatrox", new List<string> { "Male", "Top", "Darkin God-Warrior", "Manaless", "Melee", "Runeterra Shurima", "2013" });
@@ -264,17 +264,17 @@ namespace Loldle
                     {
                         Console.ForegroundColor = ConsoleColor.Yellow;
                         Console.Write(String.Join(", ", championsPos[input]));
-                        checker1++;
+                        checker1 = true;
                         break;
                     }
 
                 }
-                if (champions[input][1] != champions[rightInput][1] && checker1 == 0)
+                if (champions[input][1] != champions[rightInput][1] && checker1 == false)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.Write(String.Join(", ", championsPos[input]));
                 }
-                checker1 = 0;
+                checker1 = false;
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.Write(" | ");
                 //---------------------------------------------------------------------------------------
@@ -290,16 +290,16 @@ namespace Loldle
                     {
                         Console.ForegroundColor = ConsoleColor.Yellow;
                         Console.Write(String.Join(", ", championsSpec[input]));
-                        checker2++;
+                        checker2 = true;
                         break;
                     }
                 }
-                if (champions[input][2] != champions[rightInput][2] && checker2 == 0)
+                if (champions[input][2] != champions[rightInput][2] && checker2 == false)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.Write(String.Join(", ", championsSpec[input]));
                 }
-                checker2 = 0;
+                checker2 = false;
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.Write(" | ");
                 //-------------------------------------------------------------------------------------------
@@ -347,17 +347,17 @@ namespace Loldle
                     {
                         Console.ForegroundColor = ConsoleColor.Yellow;
                         Console.Write(String.Join(", ", championsReg[input]));
-                        checker3++;
+                        checker3 = true;
                         break;
                     }
 
                 }
-                if (champions[input][5] != champions[rightInput][5] && checker3 == 0)
+                if (champions[input][5] != champions[rightInput][5] && checker3 == false)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.Write(String.Join(", ", championsReg[input]));
                 }
-                checker3 = 0;
+                checker3 = false;
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.Write(" | ");
                 //-----------------------------------------------------------------------------------
