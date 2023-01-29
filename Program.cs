@@ -73,6 +73,7 @@ namespace Loldle
             champions.Add("Jayce", new List<string> { "Male", "Mid Top", "Human", "Mana", "Melee Ranged", "Piltover", "2012" });
             champions.Add("Jhin", new List<string> { "Male", "Bot", "Human Spiritualist", "Mana", "Ranged", "Ionia", "2016" });
             champions.Add("Jinx", new List<string> { "Female", "Bot", "ChemicallyAltered Human", "Mana", "Ranged", "Zaun", "2013" });
+            champions.Add("K'Sante", new List<string> { "Male", "Top", "Human", "Mana", "Melee", "Shurima", "2022" });
             champions.Add("Kai'Sa", new List<string> { "Female", "Bot", "Human Void-Being", "Mana", "Ranged", "Icathia Shurima Void", "2018" });//Added Icathia to Region
             champions.Add("Kalista", new List<string> { "Female", "Bot", "Undead", "Mana", "Ranged", "Camavor ShadowIsles", "2014" });
             champions.Add("Karma", new List<string> { "Female", "Support", "Human Spiritualist", "Mana", "Ranged", "Ionia", "2011" });
@@ -81,7 +82,6 @@ namespace Loldle
             champions.Add("Katarina", new List<string> { "Female", "Mid", "Human", "Manaless", "Melee", "Noxus", "2009" });
             champions.Add("Kayle", new List<string> { "Female", "Top", "Aspect Human MagicallyAltered", "Mana", "Melee Ranged", "Demacia Targon", "2009" });
             champions.Add("Kayn", new List<string> { "Male", "Jungle", "Darkin Human MagicallyAltered", "Mana", "Melee", "Ionia Noxus Runeterra Shurima", "2017" });
-            champions.Add("K'Sante", new List<string> { "Male", "Top", "Human", "Mana", "Melee", "Shurima", "2022" });
             champions.Add("Kennen", new List<string> { "Male", "Mid Top", "Yordle", "Energy", "Ranged", "Ionia", "2010" });
             champions.Add("Kha'Zix", new List<string> { "Male", "Jungle", "Void-Being", "Mana", "Melee", "Void", "2012" });
             champions.Add("Kindred", new List<string> { "Female", "Jungle", "God Spirit", "Mana", "Ranged", "Runeterra", "2015" });//Changed Gender from "Other" to "Female"
