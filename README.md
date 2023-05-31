@@ -47,8 +47,8 @@ This game is inspired by an online game called Loldle: Loldle Classic. However, 
 
 I have also made some adjustments to the "Positions" and "Regions" of certain champions, which, in my opinion, feel more appropriate. Here are a few examples:
 
-Blitzcrank: Changed Gender from "Other" to "Male"
-Ezreal: Added Runeterra to Region
+Blitzcrank: Changed Gender from "Other" to "Male" \n
+Ezreal: Added Runeterra to Region \n
 Katarina: Added Icathia to Region
 Kindred: Changed Gender from "Other" to "Female"
 Lucian: Added Runeterra to Region
