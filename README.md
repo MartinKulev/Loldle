@@ -1,5 +1,5 @@
 # Loldle game:
-The idea of this game is to write the names of League Of Legends champions until you get the right one, which is chosen randomly each time the game is started. All champions have 7 categories - Gender, Position, Species, Resource, Range Type, Region, Release Year. 
+The idea of this game is to write the names of League Of Legends champions until you guess the right one, which is chosen randomly each time the game is started. All champions have 7 categories - Gender, Position, Species, Resource, Range Type, Region, Release Year. 
 The list of all champions up to date can be found here: https://leagueoflegends.fandom.com/wiki/List_of_champions.
 
 # How does the game work: 
@@ -46,16 +46,6 @@ Vladimir: Resource changed from "Bloodthirst" to "Health",
 Zac: Added Top to Positions,
 Zed: Added Jungle to Positions,
 Zilean: Added Mid to Positions.
-
-
-# How does the code work?
-Firstly all champions are added to a Dicitonary<string, List<string>>, where the string contains the champion name and the List contains the champion categories. 
-All champion names are added to another List. Then a random number generator is implemented(from number 0 to the number of the List.Count). Then the random number which matches the index of the champion in the List is chosen as a right input.
-3 more Dicitonary<string, List<string>> are created for the categories: "Positions", "Species", "Region", because they need to be splited one more time from the first dicitonary. The string once again contains the champion name, The List - one of the categories above(for example: Bot Top).
-Then the program let's the user type an input. If the input is the same as the right champion, everything is coloured green and the program stops. 
-If the input isn't a League Of Legends champion at all or if you have a typo, it let's the user type another input. This reapeats until the user gives the program an existing League Of Legend champion. 
-If the input isn't the right champion, but it's an existing champion there are a series of if else-s that check if the category should be coloured green, red or yellow.
-As i mentioned there is a "Give up" command which prints the right champion and his categories, coloured in green.
 
 # Updates and ownerships of the game  
 Approximately every 3 months a new champion is added to League Of Legends, so I'll try and keep this game updated.
