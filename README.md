@@ -43,7 +43,7 @@ The "Release Year" category works as follows. Let's use Aatrox as an example. He
 
 This game is inspired by an online game called Loldle: Loldle Classic. However, I have made a few changes to enhance the gameplay. First, I have introduced a "Give up" command, which reveals the correct champion and its corresponding categories. Additionally, I have removed the "Other" gender type and replaced it with an accurate gender representation for each champion(No , I'm not promoting any kind of sexism! Don't cancel me! 😄)
 
-Changes to Categories:
+# Changes to Categories:
 
 I have also made some adjustments to the "Positions" and "Regions" of certain champions, which, in my opinion, feel more appropriate. Here are a few examples:
 
