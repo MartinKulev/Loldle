@@ -41,7 +41,7 @@ The "Release Year" category works as follows. Let's use Aatrox as an example. He
 
 # Changes from the original game:
 
-This game is inspired by an online game called Loldle: Loldle Classic. However, I have made a few changes to enhance the gameplay. First, I have introduced a "Give up" command, which reveals the correct champion and its corresponding categories. Additionally, I have removed the "Other" gender type and replaced it with an accurate gender representation for each champion(No , I'm not promoting any kind of sexism! Don't cancel me! 😄)
+This game is inspired by an online game called Loldle: Loldle Classic. However, I have made a few changes to enhance the gameplay. First, I have introduced a "Give up" command, which reveals the correct champion and its corresponding categories. Additionally, I have removed the "Other" gender type and replaced it with an accurate gender representation for each champion.
 
 # Changes to Categories:
 
@@ -64,6 +64,6 @@ Zed: Added Jungle to Positions
 Zilean: Added Mid to Positions
 Updates and Ownership of the Game:
 
-League of Legends introduces a new champion approximately every three months. Therefore, I will strive to keep this game updated accordingly. However, I want to clarify that I do not claim ownership of the game, as I am not the original creator. The link to the original game can be found here: Original Game
+League of Legends introduces a new champion approximately every three months. Therefore, I will strive to keep this game updated accordingly. However, I want to clarify that I do not claim ownership of the game, as I am not the original creator. The link to the original game can be found here: [https://loldle.net](https://loldle.net)
 
 Enjoy playing the Loldle Game and have fun guessing the champions! If you have any suggestions or feedback, feel free to let me know.
